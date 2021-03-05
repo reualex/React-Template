@@ -1,0 +1,28 @@
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  background-color: #00008b;
+
+  &--logo-block {
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+
+    &-logo {
+      margin-right: 10px;
+    }
+  }
+
+  &--auth-block {
+    margin-top: 25px;
+    margin-right: 30px;
+
+    &--sign-in-btn:hover,
+    --logout-btn:hover {
+      color: darken(white, 10%);
+      cursor: pointer;
+    }
+  }
+}
